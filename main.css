@@ -1,0 +1,17 @@
+.container{
+font-family: Arial, Helvetica, sans-serif;
+ background-image: url("background_1.jpg");
+ color: #aa6f6f;
+background-repeat: no-repeat;
+height: 100vh;
+}
+
+img {
+  border-radius: 50%;
+}
+      /* Height for devices larger than 576px */
+      /* @media (min-width: 992px) {
+        #intro {
+          margin-top: -58.59px;
+        }
+      } */
