@@ -1,46 +1,43 @@
-
-
-.head-text{
-  margin-top: 30%;
-  margin-right: 30%;
+.navbar .navbar-brand {
+  font-size: 10px;
+}
+.navbar .nav-item {
+  padding:0;
+}
+.navbar .nav-link {
+  font-size: 20px;
+  margin-left: 5px;
+}
+.fa-bars {
+  color: #007bff;
+  font-size: 20px;
 }
 
+ #container { 
+      position: relative;  
+    } 
+     
+    #container span { 
+      position: absolute; 
+      top: 30%; 
+      left: 30px; 
+    } 
+
+
 hr.rounded {
-  border-top: 5px solid rgb(77, 68, 69);
+  border-top: 5px solid rgb(38, 3, 66);
   border-radius: 2px;
   margin: 0%;
 }
    
 
-/* Style the body */
- .home-background{
-  background-image: url("background_1.jpg");
-  background-color: #cccccc;
-  height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  text-align: center;
-  overflow: hidden;
- 
-  
-}
- /* about section */
-/* body {
-  font-family: 'Cairo', sans-serif;
-  font-weight: 300;
-  letter-spacing: .025rem;
-  background-color: rgb(46, 40, 40);
+/* h1 {
+  font-weight: 900;
 } */
 
-h1 {
-  font-weight: 900;
-}
-
-h2, h3 {
+/* h2, h3 {
   font-weight: 700;
-}
+} */
 
 h4, h5, h6 {
   font-weight: 600;
@@ -144,9 +141,6 @@ img {
   font-size: 1.2rem;
 }
 
-/* .icon-18 {
-  font-size: 1.8rem;
-} */
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .left-header::before {
@@ -163,7 +157,7 @@ img {
 /* end of about page */
 
 
-/* skills section */
+/* project section */
 .cards-list {
   z-index: 0;
   width: 100%;
@@ -238,7 +232,7 @@ img {
     flex-direction: column;
   }
 }
-
+/* Skills section */
 
 
    
@@ -611,8 +605,8 @@ body,html{width:100%;height:100%;}
 #sliderproduct a.carousel-control-prev, #sliderproduct a.carousel-control-next {
   border-radius: 0%;
   background-color: rgb(17, 3, 78);
-  width: 46px;
-  height: 46px;
+  width: 10px;
+  height: 30px;
   font-size: 30px;
   text-align: center;
   line-height: 40px;
