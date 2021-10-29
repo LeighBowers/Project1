@@ -139,7 +139,7 @@ img {
   flex-direction: column;
   justify-content: center;
   padding: 20px;
-  background: coral;
+  background: rgb(2, 136, 20);
   color: white;
   font-family: 'Playfair Display', serif;
   font-size: 25px;
@@ -152,7 +152,7 @@ img {
 }
 .scard:hover .header{
   clip-path: circle(100% at 50% 50%);
-  background: salmon;
+  background: rgb(18, 179, 80);
 }
 .scard:hover .header h4{
   opacity: 1;
@@ -176,7 +176,7 @@ img {
   color: white;
 }
 .scard.dot:hover {
-  background: darkblue;
+  background: rgb(11, 161, 187);
   clip-path: circle(100%);
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
@@ -195,7 +195,7 @@ img {
 }  
 /* dual colors */
 .scard.dual .header{
-  background: #F21B3F;
+  background: #ffee00;
 }
 .scard.dual .description{
   clip-path: circle(20% at 100% 100%);
@@ -209,11 +209,11 @@ img {
 }
 .scard.dual:hover .description{
   clip-path: circle(100% at 50% 0%);
-  background: purple;
+  background: rgb(212, 226, 20);
 }
 .scard.dual:hover .header{
   clip-path: circle(100% at 50% 50%);
-  background: purple;
+  background: rgb(204, 175, 8);
 }
 @media(max-width: 768px){
   .cards-wrapper{
@@ -391,6 +391,10 @@ a.btn
 p{
   padding:1.5rem;
   font-family:var(--typo);
+}
+
+.vf {
+  gap: 10%;
 }
 
 /* https://ianlunn.github.io/Hover/ I'm sorry for the minify, it takes up less space so... */
