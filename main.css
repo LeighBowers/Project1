@@ -37,109 +37,6 @@ img {
   max-width: 100%;
 }
 
-/* .about-section {
-  width: 100%;
-  height: 100vh;
-  margin-left: 0%;
-  background-color:#464749;
-  margin-top: 1px;
-} */
-
-.left-header {
-  position: sticky;
-  top: 0;
-  left: 0;
-  color: #fff;
-  height: 100vh;
-  width: 100%;
-  max-width: 100%;
-  /* background-image: linear-gradient(to bottom, rgba(5, 5, 5, 0.5), rgba(7, 7, 7, 0.5)), url('Leigh_ann3.JPG '); */
-  background-size: cover;
-  padding: 1rem;
-}
-
-.left-header::before {
-  background-color: #fff;
-  position: absolute;
-  content: '';
-  bottom: 50px;
-  left: 30px;
-  margin: 0 1rem;
-  width: 80%;
-  height: 2px;
-}
-
-.left-header::after {
-  background-color: #fff;
-  position: absolute;
-  content: '';
-  bottom: 50px;
-  left: 30px;
-  margin: 0 1rem;
-  height: 80%;
-  width: 2px;
-}
-
-.left-header h2 {
-  margin-left: 4rem;
-}
-
-.v-center-box {
-  min-height: 100%;
-}
-
-.sub-heading {
-  font-size: .8rem;
-  font-weight: 700;
-  letter-spacing: .15rem;
-  word-spacing: .05rem;
-}
-
-.about-data {
-  position: relative;
-}
-
-.about-data::before {
-  position: absolute;
-  content: '\003c/ ABOUT \003e';
-  top: 0;
-  left: 50%;
-  transform: translate(-50%, -60%);
-  text-align: center;
-  font-size: .8rem;
-  font-weight: 900;
-  color: #dee2e6; 
-  background-color: #fff;
-  width: 8rem;
-}
-
-.about-data i {
-  color: #141111;
-}
-
-.about-data p {
-  font-size: .7rem;
-  letter-spacing: .05rem;
-  word-spacing: .2rem;
-}
-.about-data .data-number {
-  color: #302f2f;
-  font-size: 1.2rem;
-}
-
-
-@media (min-width: 992px) and (max-width: 1199px) {
-  .left-header::before {
-    width: 70%;
-  }
-}
-
-@media (min-height: 590px) {
-  .left-header::after {
-    height: 85%;
-  }
-}
-
 /* end of about page */
 
 
@@ -497,11 +394,11 @@ p{
 }
 
 /* https://ianlunn.github.io/Hover/ I'm sorry for the minify, it takes up less space so... */
-[class^="hvr-"] {margin: .4em;padding: 1em;text-transform: uppercase;cursor: pointer;border-top:4px solid white;text-decoration: none;-webkit-font-smoothing: antialiased;}
+/* [class^="hvr-"] {margin: .4em;padding: 1em;text-transform: uppercase;cursor: pointer;border-top:4px solid white;text-decoration: none;-webkit-font-smoothing: antialiased;}
 .hvr-bounce-to-bottom{display:inline-block;vertical-align:middle;-webkit-transform:perspective(1px) translateZ(0);transform:perspective(1px) translateZ(0);box-shadow:0 0 1px transparent;position:relative;-webkit-transition-property:color;transition-property:color;-webkit-transition-duration:.5s;transition-duration:.5s}
 .hvr-bounce-to-bottom:before{content:"";position:absolute;z-index:-1;top:0;left:0;right:0;bottom:0;background:white;-webkit-transform:scaleY(0);transform:scaleY(0);-webkit-transform-origin:50% 0;transform-origin:50% 0;-webkit-transition-property:transform;transition-property:transform;-webkit-transition-duration:.5s;transition-duration:.5s;-webkit-transition-timing-function:ease-out;transition-timing-function:ease-out}
 .hvr-bounce-to-bottom:active,.hvr-bounce-to-bottom:focus,.hvr-bounce-to-bottom:hover{color:#1c1f23;}
-.hvr-bounce-to-bottom:active:before,.hvr-bounce-to-bottom:focus:before,.hvr-bounce-to-bottom:hover:before{-webkit-transform:scaleY(1);transform:scaleY(1);-webkit-transition-timing-function:cubic-bezier(.52,1.64,.37,.66);transition-timing-function:cubic-bezier(.52,1.64,.37,.66)}
+.hvr-bounce-to-bottom:active:before,.hvr-bounce-to-bottom:focus:before,.hvr-bounce-to-bottom:hover:before{-webkit-transform:scaleY(1);transform:scaleY(1);-webkit-transition-timing-function:cubic-bezier(.52,1.64,.37,.66);transition-timing-function:cubic-bezier(.52,1.64,.37,.66)} */
 
 
 /* The tutorial I used : https://w3bits.com/css-image-hover-zoom/ */
